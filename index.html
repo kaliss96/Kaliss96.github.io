@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <!-- <meta http-equiv="refresh" content="0; url=examples/"> -->
-    <meta http-equiv="refresh" content="0; url=examples/test/raycaster/">
+    <title>Vista de la Catedral de Masaya</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script> 
   </head>
-  <body></body>
+  <body>
+    <!-- 
+    <a-scene>
+      <!-- <a-box position="-1 0.5 5.979" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
+      
+        <a-box position="-1 0.5 4.979" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
+      
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
+      -->
+      
+      <!-- <a-sky color="#ECECEC"></a-sky> -->
+    
+       <!-- <a-sky src="http://museoadmin.inss.ni/system/guia/galeria_imagens/3730/original_Parroquia_San_Juan_Bautista__Masatepe.JPG?1480105834" rotation="0 -130 0"></a-sky>
+    </a-scene>
+-->
+    <a-scene>
+      <a-camera position='0 0 3' user-height='0'></a-camera>
+        <a-box color="tomato" depth="2" height="2" width="2">
+            <a-animation attribute="rotation"
+                   dur="1000"
+                   fill="forwords"
+                   to="0 180 0"
+                   repeat="indefinite"></a-animation>
+          </a-box>
+            <!--<a-animation attribute="position"
+                   dur="3000"
+                   from="-5 0 0"
+                   to="5 0 0"
+                   repeat="indefinite">
+            </a-animation>
+           <a-animation attribute="material.color" from="blue" to="red" dur="3000" repeat="indefinite"></a-animation>
+https://codepen.io/AndraConnect/pen/YNogdG?editors=1000
+https://www.youtube.com/watch?v=7GEvyHcy-og
+          -->
+         
+         <!-- <a-sky color="lightyellow"></a-sky>-->
+          <a-sky src="http://museoadmin.inss.ni/system/guia/galeria_imagens/3730/original_Parroquia_San_Juan_Bautista__Masatepe.JPG?1480105834" rotation="0 -130 0"></a-sky>
+         
+    </a-scene>
+  </body>
 </html>
