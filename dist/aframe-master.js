@@ -81295,8 +81295,8 @@ window.threeStats = function ( renderer ) {
     };
 
     var _groups = [ {
-        // caption: 'Three.js - Memory',
-        // values: [ 'renderer.info.memory.geometries', 'renderer.info.programs', 'renderer.info.memory.textures' ]
+        caption: 'Three.js - Memory',
+        values: [ 'renderer.info.memory.geometries', 'renderer.info.programs', 'renderer.info.memory.textures' ]
     }, {
         caption: 'Three.js - Render',
         values: [ 'renderer.info.render.calls', 'renderer.info.render.faces', 'renderer.info.render.points', 'renderer.info.render.vertices' ]
