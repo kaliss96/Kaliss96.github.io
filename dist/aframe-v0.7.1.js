@@ -82229,7 +82229,7 @@ window.rStats = function rStats ( settings ) {
         _spanId.className = 'rs-counter-id';
         _spanId.textContent = ( _def && _def.caption ) ? _def.caption : _id;
 
-        _spanValue.className = 'rs-counter-value';
+        _spanValue.className = '';
         _spanValue.appendChild( _spanValueText );
 
         _dom.appendChild( _spanId );
@@ -82379,7 +82379,7 @@ window.rStats = function rStats ( settings ) {
         _base = document.createElement( 'div' );
         _base.className = 'rs-base';
         _div = document.createElement( 'div' );
-        _div.className = 'rs-container';
+        _div.className = '';
         _div.style.height = 'auto';
         _base.appendChild( _div );
         document.body.appendChild( _base );
